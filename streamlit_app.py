@@ -5,6 +5,7 @@ from PIL import Image
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, ClientSettings, WebRtcMode
 import cv2
 
+
 # Set page config
 apptitle = 'Object Detection'
 st.set_page_config(page_title=apptitle, page_icon=":face_with_monocle:")
